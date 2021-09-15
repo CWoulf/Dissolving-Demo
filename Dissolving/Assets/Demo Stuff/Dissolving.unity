@@ -390,10 +390,22 @@ PrefabInstance:
     - target: {fileID: 2934520139343220601, guid: 4a786b2bdb6b3234a98015dac522dc04, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 90a63d412923d7c44a0d4c1d70099d4c, type: 2}
+      objectReference: {fileID: 2100000, guid: 6719b040666079b4696f9c7eb20cf713, type: 2}
     - target: {fileID: 2934520139343220603, guid: 4a786b2bdb6b3234a98015dac522dc04, type: 3}
       propertyPath: m_Name
       value: Dissolve Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155425100906982524, guid: 4a786b2bdb6b3234a98015dac522dc04, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.346
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155425100906982524, guid: 4a786b2bdb6b3234a98015dac522dc04, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.392
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155425100906982524, guid: 4a786b2bdb6b3234a98015dac522dc04, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.48
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a786b2bdb6b3234a98015dac522dc04, type: 3}

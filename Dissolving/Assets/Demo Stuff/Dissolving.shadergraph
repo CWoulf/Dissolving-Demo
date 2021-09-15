@@ -14,6 +14,9 @@
         },
         {
             "m_Id": "ea1ac80982814c5bbac4bf625cd9668e"
+        },
+        {
+            "m_Id": "85e11cfce6834a6f8d0710221b993a05"
         }
     ],
     "m_Keywords": [],
@@ -773,8 +776,8 @@
     "m_ShaderOutputName": "OutMinMax",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": -1.0,
-        "y": 0.0
+        "x": 0.0,
+        "y": 1.0
     },
     "m_DefaultValue": {
         "x": 0.0,
@@ -1251,6 +1254,29 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "85e11cfce6834a6f8d0710221b993a05",
+    "m_Guid": {
+        "m_GuidSerialized": "b8d02420-0fc3-4fb4-86fe-e12677e877ae"
+    },
+    "m_Name": "Float",
+    "m_DefaultReferenceName": "Vector1_85e11cfce6834a6f8d0710221b993a05",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": -1.0,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
     "m_ObjectId": "8ecbd376f59b475295cb35b9a802aca6",
@@ -1310,10 +1336,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1924.0,
-            "y": 378.0,
-            "width": 126.0,
-            "height": 173.0
+            "x": -1906.0001220703125,
+            "y": 368.0000305175781,
+            "width": 128.0,
+            "height": 172.6666717529297
         }
     },
     "m_Slots": [
