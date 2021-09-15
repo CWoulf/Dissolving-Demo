@@ -4,16 +4,25 @@ using UnityEngine;
 
 public class StartOnFire : MonoBehaviour
 {
-    //[SerialzedField] Material hello;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] Material mat;
+    [SerializeField] Material defaultmat;
+    [SerializeField] ParticleSystem fire;
+    bool isOnFire = false;
+    
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKey(KeyCode.Space) && !fire.isPlaying)
+        {
+            fire.Play();
+            Debug.Log("Burn Mat");
+            GetComponent<MeshRenderer>().material = mat;
+        }
+        else if (fire.isPlaying && Input.GetKey(KeyCode.Space))
+        {
+            fire.Clear();
+            fire.Pause();
+        }
     }
+    
 }
