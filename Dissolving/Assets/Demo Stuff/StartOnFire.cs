@@ -10,15 +10,14 @@ public class StartOnFire : MonoBehaviour
 
     private void Start()
     {
-        //StartCoroutine(StartFire());
+        StartCoroutine(StartFire());
     }
 
     IEnumerator StartFire()
     {
-        fire.Play();
+        
         yield return new WaitForSeconds(3f);
-        fire.Clear();
-        fire.Pause();
+
     }
 
     void Update()
@@ -35,6 +34,7 @@ public class StartOnFire : MonoBehaviour
         }
         */
         //StartCoroutine(StartFire());
+        
     }
     
 }
